@@ -1,0 +1,530 @@
+Let's make a game!
+        -Time Of Mankind
+        -by Cookie
+        -created on 3/14/2014
+        -last updated on 3/14/2014
+        -version 1.0
+ 
+// Information
+ 
+Settings :
+        -prices increase by 120%
+        -selling gives back 0%
+        -resources are hidden by default
+        -clickables are visible by default
+        -buildings are visible by default
+        -upgrades are visible by default
+        -fonts : Kavoon;
+        -text color : 1e1e1e
+        -show log
+        -background :
+        -custom stylesheet : http://pastebin.com/raw.php?i=cKihDxmE
+ 
+Resources :
+ 
+
+*Cash
+        -named Cash
+        -visible
+ 
+
+ 
+*
+ 
+*second
+-visible
+ 
+*hour
+-visible
+ 
+*minute
+-visible
+       
+ 
+ 
+ 
+////////////////////////////////////////////////// Master
+ 
+ Clickables :
+ 
+        *Library1
+        -gives 1 LifePoint 100% of the time
+        -gives 1 Knowledge,1 Influence 50% of the time
+        -named Study At The Towns Library
+        -picture :
+ 
+*Library2
+        -gives 5 LifePoint 100% of the time
+        -gives 5 Knowledge,5 Influence 50% of the time
+        -named Study At The National Library
+        -picture :
+ 
+*Jog1
+        -gives 1 LifePoint 100% of the time
+        -gives 1 Cool,1 Strength 50% of the time
+        -named Jog to Town
+        -picture :
+ 
+*Jog2
+        -gives 5 LifePoint 100% of the time
+        -gives 5 Cool,5 Strength 50% of the time
+        -named Jog to the City
+        -picture :
+ 
+*GotoWork
+        -gives 1 WorkXP,1 Cash 100% of the time
+        -gives 0.1 Influence 50% of the time
+        -named Go to work
+        -picture :
+ 
+*Murder1
+        -takes 1 Humans
+        -gives 1 Murder 100% of the time
+        -gives 1 Influence,10 Cash 50% of the time
+        -named Murder Someone
+        -picture :
+ 
+*Occult1
+        -takes 1 Murder 100% of the time
+        -gives 1 OccultKnowledge,1 OccultXP 100% of the time
+        -named Do Occult Activity's
+        -picture :
+ 
+Upgrades :
+ 
+ 
+ 
+         *WorkPromotion1
+        -"Get a promotion to Floor polisher"
+        -named Work Promotion
+        -visible at 1 WorkXP
+        -multiplies income of GotoWork by 125%
+        -picture :
+ 
+        *WorkPromotion2
+        -"Get a promotion to Water tank replacer"
+        -named Work Promotion
+        -visible at 10 WorkXP
+        -multiplies income of GotoWork by 125%
+        -picture :
+ 
+        *WorkPromotion3
+        -"Get a promotion to Encourager"
+        -named Work Promotion
+        -visible at 25 WorkXP
+        -multiplies income of GotoWork by 125%
+        -picture :
+ 
+       *WorkPromotion4
+        -"Get a promotion to Intern"
+        -named Work Promotion
+        -visible at 100 WorkXP
+        -multiplies income of GotoWork by 125%
+        -picture :
+ 
+       *WorkPromotion5
+        -"Get a promotion to Repairman"
+        -named Work Promotion
+        -visible at 1000 WorkXP
+        -multiplies income of GotoWork by 125%
+        -picture :
+ 
+         *WorkPromotion6
+        -"Get a promotion to Cubicle slave"
+        -named Work Promotion
+        -visible at 5000 WorkXP
+        -multiplies income of GotoWork by 125%
+        -picture :
+ 
+        *WorkPromotion7
+        -"Get a promotion to Code monkey"
+        -named Work Promotion
+        -visible at 10000 WorkXP
+        -multiplies income of GotoWork by 125%
+        -picture :
+ 
+         *WorkPromotion8
+        -"Get a promotion to Employee"
+        -named Work Promotion
+        -visible at 30000 WorkXP
+        -multiplies income of GotoWork by 125%
+        -picture :
+ 
+        *WorkPromotion9
+        -"Get a promotion to IT guy"
+        -named Work Promotion
+        -visible at 80000 WorkXP
+        -multiplies income of GotoWork by 125%
+        -picture :
+ 
+       *WorkPromotion10
+        -"Get a promotion to Department leader"
+        -named Work Promotion
+        -visible at 150000 WorkXP
+        -multiplies income of GotoWork by 125%
+        -picture :
+ 
+         *WorkPromotion11
+        -"Get a promotion to Branch leader"
+        -named Work Promotion
+        -visible at 400000 WorkXP
+        -multiplies income of GotoWork by 125%
+        -picture :
+ 
+        *WorkPromotion12
+        -"Get a promotion to Boss"
+        -named Work Promotion
+        -visible at 800000 WorkXP
+        -multiplies income of GotoWork by 125%
+        -picture :
+ 
+         *WorkPromotion13
+        -"Get a promotion to Assistant Vice president"
+        -named Work Promotion
+        -visible at 1200000 WorkXP
+        -multiplies income of GotoWork by 125%
+        -picture :
+ 
+        *WorkPromotion14
+        -"Get a promotion to Vice president"
+        -named Work Promotion
+        -visible at 1800000 WorkXP
+        -multiplies income of GotoWork by 125%
+        -picture :
+ 
+          *WorkPromotion15
+        -"Get a promotion to Co-president"
+        -named Work Promotion
+        -visible at 2800000 WorkXP
+        -multiplies income of GotoWork by 125%
+        -picture :
+ 
+       *WorkPromotion16
+        -"Get a promotion to President"
+        -named Work Promotion
+        -visible at 5000000 WorkXP
+        -multiplies income of GotoWork by 125%
+        -picture :
+ 
+         *WorkPromotion17
+        -"Get a promotion to Junior Member Of The Company Covenant"
+        -named Work Promotion
+        -visible at 8000000 WorkXP
+        -multiplies income of GotoWork by 155%
+        -picture :
+ 
+        *WorkPromotion18
+        -"Get a promotion to Member Of The Company Covenant"
+        -named Work Promotion
+        -visible at 10000000 WorkXP
+        -multiplies income of GotoWork by 150%
+        -picture :
+ 
+       *WorkPromotion19
+        -"Get a promotion to Elder Of The Company Covenant"
+        -named Work Promotion
+        -visible at 20000000 WorkXP
+        -multiplies income of GotoWork by 150%
+        -picture :
+ 
+        *WorkPromotion20
+        -"Get a promotion to Elder Of The Company Covenant"
+        -named Work Promotion
+        -visible at 30000000 WorkXP
+        -multiplies income of GotoWork by 150%
+        -picture :
+ 
+        *WorkPromotion21
+        -"Get a promotion to Advisor To The Chief Of The Company Covenant"
+        -named Work Promotion
+        -visible at 60000000 WorkXP
+        -multiplies income of GotoWork by 150%
+        -picture :
+ 
+        *WorkPromotion22
+        -"Get a promotion to Chief Of The Company Covenant"
+        -named Work Promotion
+        -visible at 100000000 WorkXP
+        -multiplies income of GotoWork by 150%
+        -picture :
+ 
+ 
+Buildings :
+ 
+ *Busines
+-named Business
+"Your very Own Business"
+-costs 10000 Cash
+-gives 15 Cash
+-visible at 1000 Knowledge
+-picture :
+ 
+ *Car1
+-named Car
+"Your very Own Car"
+-costs 100000 Cash
+-gives 10 Influence
+-visible at 1000 Cool
+-picture :
+ 
+ *Car2
+-named Awesome Car
+"Your very Own AWESOME Car"
+-costs 3600000 Cash
+-gives 101 Influence
+-visible at 10000 Cool
+-picture :
+ 
+ 
+ *timer
+-gives 1 second
+-gives 1 minute for 60 second
+-gives 1 hour for 60 minute
+-starts at 1
+-abstract
+ 
+  *HumanBorner
+-named HumanBorner
+"Makes Humans"
+-gives 10000 Humans
+-hidden
+-starts at 1
+-picture :
+ 
+  *OccultMon1
+-named Baby Imp
+"The smallest demon from the underworld that likes to claw things"
+-costs 1 Murder
+-takes 1 Humans
+-visible at 1 OccultKnowledge
+-picture :
+ 
+*OccultMon2
+-named Imp
+"Slightly more intimidating version of the Baby Imp"
+-costs 3 Murder
+-takes 3 Humans
+-visible at 10 OccultKnowledge
+-picture :
+ 
+*OccultMon3
+-named Small Demon
+"Small demon from the underworld that likes murder"
+-costs 10 Murder
+-takes 10 Humans
+-visible at 50 OccultKnowledge
+-picture :
+ 
+*OccultMon4
+-named Demon
+"a bigger demon from the underworld that likes murder"
+-costs 20 Murder
+-takes 20 Humans
+-visible at 100 OccultKnowledge
+-picture :
+ 
+*OccultMon5
+-named Large Demon
+"a even bigger demon from the underworld that likes murder"
+-costs 100 Murder
+-takes 100 Humans
+-visible at 500 OccultKnowledge
+-picture :
+ 
+*OccultMon6
+-named Blood Demon
+"A demon that has a lust for blood"
+-costs 250 Murder
+-takes 250 Humans
+-visible at 1250 OccultKnowledge
+-picture :
+ 
+*OccultMon7
+-named Reaper Of Souls
+"Thee Reaper Of Souls"
+-costs 1000 Murder
+-takes 1000 Humans
+-visible at 3000 OccultKnowledge
+-picture :
+ 
+*OccultMon8
+-named Mestiphilas
+"Lieutenant "
+-costs 5000 Murder to the demon army
+-takes 5000 Humans
+-visible at 10000 OccultKnowledge
+-picture :
+ 
+*OccultMon9
+-named Belial
+"The demon that brings fear into peoples eye"
+-costs 50000 Murder
+-takes 50000 Humans
+-visible at 125000 OccultKnowledge
+-picture :
+ 
+*OccultMon10
+-named Gluttony
+"The demon that never stops being hungry"
+-costs 80000 Murder
+-takes 80000 Humans
+-visible at 150000 OccultKnowledge
+-picture :
+ 
+*OccultMon11
+-named Lucifer
+"The king of demons"
+-costs 100000 Murder
+-takes 100000 Humans
+-visible at 1500000 OccultKnowledge
+-picture :
+ 
+ 
+Achievements :
+ 
+ 
+*CoolAchev1
+        -""
+        -unlocks at 1 Cool
+        -named Super Lame
+        -picture :
+ 
+*CashAchev1
+        -"Get 1 Cash"
+        -unlocks at 1 Cash
+        -named Broke
+        -picture :
+ 
+*StrengthAchev1
+        -"Get 1 Strength"
+        -unlocks at 1 Strength
+        -named Arm Like Twigs
+        -picture :
+ 
+*StrengthAchev2
+        -"Get 50 Strength"
+        -unlocks at 50 Strength
+        -named Just Super Weak
+        -picture :
+ 
+*StrengthAchev3
+        -"Get 500 Strength"
+        -unlocks at 500 Strength
+        -named Just Weak
+        -picture :
+ 
+*StrengthAchev4
+        -"Get 5000 Strength"
+        -unlocks at 5000 Strength
+        -named Not Strong
+        -picture :
+ 
+*StrengthAchev5
+        -"Get 10000 Strength"
+        -unlocks at 10000 Strength
+        -named Strong
+        -picture :
+ 
+*StrengthAchev6
+        -"Get 15000 Strength"
+        -unlocks at 15000 Strength
+        -named Apartment Complexes Strongest
+        -picture :
+ 
+*StrengthAchev7
+        -"Get 20000 Strength"
+        -unlocks at 20000 Strength
+        -named Blocks Strongest
+        -picture :
+ 
+*StrengthAchev8
+        -"Get 30000 Strength"
+        -unlocks at 30000 Strength
+        -named Towns Strongest
+        -picture :
+ 
+*StrengthAchev9
+        -"Get 50000 Strength"
+        -unlocks at 50000 Strength
+        -named Citys Strongest
+        -picture :
+ 
+*StrengthAchev10
+        -"Get 80000 Strength"
+        -unlocks at 80000 Strength
+        -named States Strongest
+        -picture :
+ 
+*StrengthAchev11
+        -"Get 125000 Strength"
+        -unlocks at 125000 Strength
+        -named Worlds Strongest
+        -picture :
+ 
+ 
+ 
+*KnowledgeAchev1
+        -"Get 1 Knowledge"
+        -unlocks at 1 Knowledge
+        -named Just plain stupid
+        -picture :
+ 
+*KnowledgeAchev2
+        -"Get 50 Knowledge"
+        -unlocks at 50 Knowledge
+        -named Just Stupid
+        -picture :
+ 
+*KnowledgeAchev3
+        -"Get 500 Knowledge"
+        -unlocks at 500 Knowledge
+        -named Just a idiot
+        -picture :
+ 
+*KnowledgeAchev4
+        -"Get 5000 Knowledge"
+        -unlocks at 5000 Knowledge
+        -named Average Joe
+        -picture :
+ 
+*KnowledgeAchev5
+        -"Get 10000 Knowledge"
+        -unlocks at 10000 Knowledge
+        -named Smart
+        -picture :
+ 
+*KnowledgeAchev6
+        -"Get 15000 Knowledge"
+        -unlocks at 15000 Knowledge
+        -named Nerd
+        -picture :
+ 
+*KnowledgeAchev7
+        -"Get 20000 Knowledge"
+        -unlocks at 20000 Knowledge
+        -named Super Nerd
+        -picture :
+ 
+*KnowledgeAchev8
+        -"Get 30000 Knowledge"
+        -unlocks at 30000 Knowledge
+        -named Book Worm
+        -picture :
+ 
+*KnowledgeAchev9
+        -"Get 50000 Knowledge"
+        -unlocks at 50000 Knowledge
+        -named Learning Prodigy
+        -picture :
+ 
+*KnowledgeAchev10
+        -"Get 80000 Knowledge"
+        -unlocks at 80000 Knowledge
+        -named Genius
+        -picture :
+ 
+*KnowledgeAchev11
+        -"Get 125000 Knowledge"
+        -unlocks at 125000 Knowledge
+        -named Worlds Smartest
+        -picture :
